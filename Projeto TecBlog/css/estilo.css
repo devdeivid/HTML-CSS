@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+}
+
+body {
+    background: rgb(231, 230, 230);
+
+}
+
+.cabecalho {
+    background: rgb(253, 187, 65);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(90, 89, 89);
+}
+
+span {
+    color: white;
+}
+
+.navegacao-1 a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.navegacao-1 li {
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.navegacao-1 ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.navegacao-1 a:hover {
+    background: white;
+    color: rgb(253, 187, 65);
+    padding: 0 5px;
+    border-radius: 4px;
+}
+
+
+.conteudo-principal{
+    width: 630px;
+    background: white;
+    margin: 10px;
+    float: left;
+}
+
+.area-lateral {
+    width: 300px;
+    background: white;
+    margin: 10px;
+    float: right;
+    padding: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+  
+}
+
+.caixa {
+   margin: 10px;
+    
+}
+
+.span-2 {
+    color: rgb(82, 80, 80);
+    font-weight: bold;
+    font-size: 10px;
+    display: block;
+    
+}
+
+h2 {
+    color: rgb(253, 187, 65);
+    display: block;
+}
+
+h3 {
+    background: rgb(168, 165, 165);
+    text-indent: 10px;
+}
+
+.area-lateral a { 
+    color: rgb(253, 187, 65);;
+}
+
+.area-lateral a:hover {
+    color: orange;
+}
+
+.area-lateral ul {
+    list-style: none;
+}
+
+footer {
+    background: rgb(253, 187, 65);
+    padding: 30px;
+    font-size: 15px;
+    clear: both;
+    text-align: center;
+}
+
+
+
+

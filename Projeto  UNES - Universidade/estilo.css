@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-style {
+    list-style: none;
+    display: inline;
+    float: left;
+    
+}
+
+body {
+    background: url(imagens/fundo1.png);
+    
+}
+
+p {
+    padding: 0 20px;
+}
+
+h1 {
+    padding: 0 20px;
+}
+
+h2 {
+    padding: 0 20px;
+}
+
+
+.entrar {
+   
+}
+
+.contato {
+    
+}
+
+.quem-somos {
+    
+}
+
+.home {
+    
+}
+
+
+#nav-principal {
+    margin-right: 162px;
+}
+
+nav img {
+    margin-left: 48px;
+}
+
+nav {
+    background: rgb(225, 250, 4);
+} 
+
+.logo {
+    border: 5px solid white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+footer {
+    background: rgb(225, 250, 4);
+    padding: 30px;
+}
+
+.h2-strong {
+    text-align: center;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+section {
+    background: rgb(225, 250, 4);
+    
+}
+
+.motivos-para-estudar {
+    
+}
+
+input[type="email"] {
+    margin: 5px 0;
+}
+
+
+input[type="text"] {
+    margin: 5px 0;
+}
+
+input[type="textarea"] {
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    margin: 5px 0;
+    padding: 10px 20px;
+    background:rgb(225, 250, 4);
+    border-radius: 5px;
+    cursor:pointer;
+    color: rgb(20, 136, 245);
+    border: 1px solid rgb(20, 136, 245);
+}
+
+input[type="submit"]:hover {
+    
+    background: rgb(20, 136, 245);
+    color: white;
+}
+
+.formulario {
+    margin: 1px px;
+}
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 33px;
+    text-align: center;
+    color: aqua;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+
+
+
+.conteudo-principal {
+    width: 45%;
+    margin: 0 auto;
+    
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.logo {
+    background:  rgb(238, 237, 236);
+}
+
+.conteudo-lateral {
+    width: 45%;
+    margin: 0 auto;
+    
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.conteudo-lateral a,.conteudo-principal a {
+    color: rgb(26, 11, 241);
+    margin-left: 16px;
+}
+
+.conteudo-lateral a:hover ,.conteudo-principal a:hover {
+    color: white;
+}
+
+
+
+h2 {
+    background: rgb(2, 2, 247);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    margin: 10px 15px;
+}
+
+.caixa {
+    background-color: rgb(238, 237, 236);
+    margin: 20px;
+    
+}
+
+img {
+    padding: 10px;
+}
+
+.cartao-1 {
+    float: left;
+    width: 33%;
+
+}
+
+.cartao-2 {
+    float: right;
+    width: 33%;
+}
+
+.cartao-3 {
+    float: left;
+    width: 34%;
+}
+
+.cartao-1, .cartao-2, .cartao-3 {
+    margin: 0 auto;
+    
+}
+
+.espacamento {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img-top {
+    width: 350px;
+    margin: 0 auto;
+}
+
+footer {
+    clear: both;
+    background: rgb(238, 237, 236);
+    padding: 20px;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}

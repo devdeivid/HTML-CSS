@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background: url(../imagens/fundo.png) repeat-x;
+
+}
+
+.container {
+    margin: 0 auto;
+    height: auto;
+    width: 750px;
+    
+}
+
+.noticia-cidade {
+    width: 200px;
+    height: 100px;
+    background: url(../imagens/logo.png) no-repeat;
+    text-indent: -3000px;
+
+}
+
+
+h1{
+    text-indent: -3000;
+}
+
+nav {
+    width: 750px;
+    height: 250px;
+}
+
+.brasil {
+    background: url(../imagens/detalhe-topo.png) no-repeat top right;
+    width: 900px;
+    height: 177px;
+}
+
+.menus {
+    margin-top: 20px;
+}
+
+
+.menus li {
+    display: inline;
+    border-radius: 3px;
+    border: 2px solid black;
+    background: rgb(201, 14, 14 , 0.9) ;
+    margin-left: 10px;
+    padding: 20px;
+   
+}
+
+.menus a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a {
+    
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.area-lateral {
+    width: 170px;
+    
+    float: left;
+    height: auto;
+   
+    
+}
+
+.conteudo-1 {
+    width: 270px;
+    
+    float: left;
+    height: auto;
+    margin-left: 10px;
+    
+}
+
+.conteudo-2 {
+    width: 270px;
+    float: left;
+    height: auto;
+    margin-left: 10px;
+
+}
+
+.area-lateral, .conteudo-1, .conteudo-2 {
+    margin-top: 60px;
+}
+
+.caixa {
+    background: url(../imagens/fundo-caixa.png);
+    padding: 5px;
+}
+
+.medicos ul {
+    list-style: none;
+    margin: 10px;
+}
+
+.medicos li {
+    padding: 10px 0;
+}
+
+.medicos a {
+    color: rgb(1, 1, 131);
+}
+
+h2 {
+    background: rgb(1, 1, 131);
+    color: white;
+    text-indent: 10px;
+}
+
+.branco {
+    background: white;
+    height: auto;
+}
+
+.medicos a:hover {
+    color: white;
+    background: rgb(201, 14, 14) ;
+    padding: 7px 10px;
+}
+
+input[type="text"] {
+    width: 150px;
+}
+
+input[type="submit"]  {
+    margin-top: 10px;
+    color: white;
+    background: rgb(201, 14, 14) ;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.news {
+    margin-bottom: 10px;
+}
+
+.conteudo-1 {
+    height: auto;
+}
+
+.conteudo-1 a {
+    color: rgb(201, 14, 14) ;
+    text-decoration: underline;
+}
+
+.conteudo-1 span {
+    color: black;
+    background: rgb(201, 14, 14) ;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.conteudo-1 img  {
+    margin-top: 3px;
+} 
+
+.conteudo-2 img  {
+    margin-top: 3px;
+} 
+
+
+.mundo img {
+    float: left;
+    margin: 5px;
+    
+}
+
+.mundo {
+    border-bottom: 1px solid rgb(189, 187, 187);
+    
+}
+
+.mundo a {
+    color:blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nova-legislaçao {
+    color: white;
+    background: rgb(201, 14, 14) ;
+    font-weight: bold;
+    clear: both;
+}
+
+.conteudo-2 img{
+    padding-top: 5px    
+}
+
+.conteudo-2 a {
+    color: rgb(201, 14, 14) ;
+}
+
+.conteudo-1 a:hover {
+    color: rgb(201, 14, 14)
+}
+
+.conteudo-2 a:hover {
+    color: blue;
+}
+
+footer {
+    clear: both;
+    background: blue;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color:aliceblue;
+    margin-left: 10px;
+}
+
+footer a:hover {
+    color: rgb(201, 14, 14) ;
+}
+
+.conteudo-1 a:hover {
+    color: blue;
+}
+

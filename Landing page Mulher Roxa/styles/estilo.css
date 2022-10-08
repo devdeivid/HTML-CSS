@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+   
+   
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(33, 33, 33);
+    max-width: 1200px;
+    color: white;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    flex-direction: column;
+    line-height: 22px;
+}
+
+h2 {
+    font-weight: 200px;
+}
+
+
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.ja-tem-uma-conta {
+    border: 2px solid blueviolet;
+    padding: 7px 20px 7px 20px;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: blueviolet;
+    transition: 0.5s all;
+}
+
+.ja-tem-uma-conta a:hover {
+    color: white;
+    background: blueviolet;
+}
+
+.saceo-1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    float: left;
+}
+
+.imagen {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 50%;
+    float: right;
+    
+}
+
+.letra-roxa {
+    color: blueviolet;
+}
+
+.separador {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 40px;
+   
+}
+
+form {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight:bold;
+}
+
+.submit {
+    width: 50%;
+    height: 50px;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+p {
+    margin: 20px 0px ;
+}
+
+

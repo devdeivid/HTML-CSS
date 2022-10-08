@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    .cabecalho ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudo-principal {
+        width: 430px;
+    }
+
+    .conteudo-principal img {
+        width: 410px;
+    }
+
+    .area-lateral {
+       width: 410px;
+    }
+
+    .container {
+        width: 450px;
+    }
+    footer {
+        clear: both;
+
+    }
+}
+
+    
+    
+
+
+
+
+
+    
